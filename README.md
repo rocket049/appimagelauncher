@@ -1,4 +1,4 @@
-# appimagelauncher 使用说明
+# appimagelauncher 帮助 appimage 程序把自己加入启动菜单
 
 调用： `func Create(desktopFile, iconFile string, force bool) error`
 

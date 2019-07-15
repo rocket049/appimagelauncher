@@ -23,7 +23,7 @@ func copyFile(src, dst string) error {
 	}
 	defer fp2.Close()
 	_, err = io.Copy(fp1, fp2)
-	log.Println("copy", src, dst)
+	//log.Println("copy", src, dst)
 	return err
 }
 
